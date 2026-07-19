@@ -1,6 +1,6 @@
 ---
 name: yc-startup-ideation
-description: Structured, evidence-disciplined workflow for evaluating, stress-testing, and validating startup ideas — YC's evaluation framework (Friedman's 10 questions, 4 mistakes), a fast-triage-then-deep-dive process, mechanism-level stress tests, and discovery-interview design. Use when a user is deciding between multiple startup ideas, deciding whether to pursue/pivot/kill a specific idea, evaluating founder-market fit for a concrete concept, or designing customer discovery to test a stated thesis. Do not trigger for a passing mention of a startup, a general business-writing task, or a request for a single fact about a company — this skill is for genuine idea-evaluation or idea-generation work, not everything startup-adjacent.
+description: Evidence-driven startup idea evaluation using YC questions, stress tests, and discovery planning. Use for ideation, pivots, founder-market fit, or customer discovery; not generic business writing.
 ---
 
 # YC-Style Startup Ideation Workflow

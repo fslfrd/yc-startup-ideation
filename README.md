@@ -13,6 +13,23 @@ An evidence-disciplined Codex skill for evaluating startup ideas without turning
 
 The core workflow lives in [SKILL.md](SKILL.md). Detailed references cover the [Friedman framework](references/friedman-framework.md), [stress-test patterns](references/stress-test-patterns.md), and [discovery design](references/discovery-design.md).
 
+## Install
+
+### Codex
+
+For personal use, clone the repository into Codex's user skill directory:
+
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/fslfrd/yc-startup-ideation.git ~/.agents/skills/yc-startup-ideation
+```
+
+Codex detects skills in `~/.agents/skills` and repository `.agents/skills` directories. Restart Codex if the skill does not appear immediately, then invoke it explicitly with `$yc-startup-ideation` or use a matching idea-evaluation prompt.
+
+### Claude
+
+For Claude Custom Skills, make a copy of this folder, rename `SKILL.md` to `skill.md`, and ZIP the copy so the `yc-startup-ideation/` folder is the ZIP root. In Claude, open **Customize → Skills**, upload the ZIP, and enable the skill. The shared description is kept under Claude's 200-character limit; keep the `references/` folder in the package.
+
 ## Example
 
 Once installed as a Codex skill, give it a concrete founder context and candidate ideas:
